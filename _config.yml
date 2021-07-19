@@ -4,7 +4,7 @@ SEOTitle: python学习笔记——欢迎来交流
 header-img: img/post-bg-desk.jpg
 email: klovien@gmail.com
 description: 一个小菜鸡的python学习笔记，欢迎大佬前来指导
-keyword: 每天学习一点，收获多多
+keyword: 每天敲几行代码，每天学习一点，收获多多。
 url: "https://tmyblog.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/tmyblog/tmyblog.github.io.git" # you code repository
