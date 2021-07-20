@@ -16,8 +16,8 @@ tags:
 turtle.setup(width,height,startx,starty)这个函数用来设置窗体大小及位置，在这个函数中的四个参数可选后两个，如果不输入具体数值默认窗体在电脑屏幕的中间。setup函数在turtle库的使用中不是必须的。  
 二、绝对坐标和海龟坐标  
 绝对坐标其实就是我们数学中学习的直角坐标系，海龟就是原点，x，y轴为正方向。
-turtle.goto（a，b）这个函数的意思就是海龟从原点爬行到坐标（a，b）这个点，即goto从哪到哪
-这个图更可以帮你理解，如果没看到图就是我这个菜鸡还没学会如何插入图片，请耐心等待hhh
+turtle.goto（a，b）这个函数的意思就是海龟从原点爬行到坐标（a，b）这个点，即goto从哪到哪  
+![这个图片可以帮你理解](https://github.com/tmyblog/tmyblog.github.io/blob/d6dc07f4afb17a46c23524054335c46218dd4d8e/1.png)
 海龟坐标更简单其实就是去掉直角坐标系中的xy轴在这样一个平面内运动
 turtle.forward(d)或turtle.fd(d) 海龟向前行进且走直线，其中d为海龟走的距离，d也可为负值表示向后直线行进。
 turtle.bk(d)是海龟向后直线行进。turtle.circle(r,angle)是海龟默认以左距离r的点为圆心，走angle角度的曲线行进，这里的角度为绝对角度。  
@@ -26,7 +26,8 @@ turtle.bk(d)是海龟向后直线行进。turtle.circle(r,angle)是海龟默认�
 turtle.setheading(angle)或turtle.seth(angle)即改变海龟的方向，需注意只改变方向并不行进。
 海龟角度turtle.left(angle)和turtle.right(angle)这个so easy    
 四、RGB色彩   
-这个贴两张图，如果没看到图就是我这个菜鸡还没学会如何插入图片，请耐心等待hhh  
+![常用RGB色彩](https://github.com/tmyblog/tmyblog.github.io/blob/d6dc07f4afb17a46c23524054335c46218dd4d8e/2.png)  
+![turtle的RGB色彩模式](https://github.com/tmyblog/tmyblog.github.io/blob/d6dc07f4afb17a46c23524054335c46218dd4d8e/3.png)  
 五、库引用（扩充python程序功能的方式）  
 使用import保留字完成     
 import<库名>   <库名>.<函数名>(<函数参数>)    
@@ -36,21 +37,15 @@ turtle.penup()或turtle.pu()抬起画笔，海龟飞行 turtle.pendown()或turtl
 turtle.pensize(width)或turtle.width(width)画笔宽带 turtle.pencolor(color)画笔颜色  
 color参数可以有三种形式：颜色字符串（需注意字符串要用双引号""），RGB的小数值，RGB的元组值  
 七、按照一定次数循环执行一组语句    
-for<变量> in range (<参数>)   
-<被循环执行的语句>   
-<变量>表示每次循环的计数，0到<次数>-1   
-这个栗子可以帮助理解，如果没看到图就是我这个菜鸡还没学会如何插入图片，请耐心等待hhh   
+for<变量> in range (<参数>)   <被循环执行的语句>   <变量>表示每次循环的计数，0到<次数>-1   
+![这个栗子可以帮助你理解](https://github.com/tmyblog/tmyblog.github.io/blob/d6dc07f4afb17a46c23524054335c46218dd4d8e/4.png)   
 八、range ( )函数产生循环计数序列    
-range(5)   
-0，1，2，3，4    
--range ( N )   
-range(2，5)    
-产生О到N-1的整数序列，共N个   
-2，3，4   
--range ( M，N)   
-产生M到N-1的整数序列，共N-M个   
+range(5)   0，1，2，3，4    
+-range ( N )   产生О到N-1的整数序列，共N个
+range(2，5)      2，3，4   
+-range ( M，N)   产生M到N-1的整数序列，共N-M个   
 
-    
+
 结束啦感谢大家支持我的blog。^_^
 
 
